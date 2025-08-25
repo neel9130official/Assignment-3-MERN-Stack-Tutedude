@@ -1,6 +1,6 @@
 function greet(){
     let inputvalue=document.getElementById("myinput").value;
-    document.getElementById("headertext").innerText="Hello, "+inputvalue;
+    document.getElementById("headertext").innerText="Hello "+inputvalue;
 }
 
 document.getElementById("red").onclick = function() {
@@ -14,4 +14,5 @@ document.getElementById("green").onclick = function() {
 }
 document.getElementById("yellow").onclick = function() {
     this.style.backgroundColor = "yellow";
+
 }
